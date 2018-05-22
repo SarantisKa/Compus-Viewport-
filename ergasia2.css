@@ -1,0 +1,296 @@
+body{
+    overflow-x: hidden;
+}
+
+.navigation {
+    margin: 0px;
+    padding: 5px;
+    background:#661A00 ;
+    font-size: 1.2em;
+    justify-content:space-between;
+    display: flex;
+}
+
+
+.navigation ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+}
+
+
+
+
+.user{
+    color: black;
+    display: flex;
+        
+}
+
+.lang{
+    font-size: 20px;
+    display: flex;
+    color: orange;
+}
+
+
+.background{
+    background-image: url(png/compass.png);
+    background-size: 100% 100%;
+    color:darkorange;
+    margin: 0;
+    padding: 0px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+    }
+
+.background a{
+    color: aliceblue;
+    padding: 0.5em;
+}
+
+.title{
+ font-family: 'Old Standard TT', serif;
+}
+
+h1{
+    position: relative;
+    left: 10%;
+    transform: translateY(-50%);
+    padding: 0;
+    margin: 0;
+    opacity: 0.5;
+    font-style: italic;
+}
+
+h2{
+    position: relative;
+    left: 3%;
+    transform: translateY(-80%);
+    padding: 0;
+    margin: 1%;
+    opacity: 0.5;
+    font-style: italic;
+}
+
+
+.search{
+    display: flex;
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    background: #0d0d0d;
+    font-size: 1.1em;
+    display: flex;
+    justify-content:space-between;
+    
+    
+}
+
+.menu ul{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    padding: 0.8em;
+    color: white;
+    vertical-align: middle;
+}
+
+i{
+    font-size: 25px;
+    color: white;
+}
+
+.navicon{
+    position: relative;
+    top: -55px !important;
+}
+
+
+.menuicon{
+    position: relative;
+    top: -30px !important;
+    padding: 0;
+    margin: 0;
+}
+
+
+.information{
+    display: flex;
+}
+
+.descript{
+    padding: 10px;
+    margin: 10px;
+    background-color: #F5F5F5;
+    border: double;
+}
+
+
+.wrapper {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    
+}
+
+.aside1{
+    display: flex;
+}
+
+article{
+    padding: 10px;
+}
+
+
+.footer {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.compus{
+    margin: 10px;
+}
+
+.compus li{
+    list-style-type: value;
+}
+
+.news{
+    margin: 10px;
+    padding: 10px;
+}
+
+
+input {
+    position: relative;
+    top:20%;
+    width: 160px;
+    height: 28px;
+    background-color:floralwhite;
+    text-align: center;
+}
+
+.identity{
+    background-color:#DDD9D9;
+    margin: 10px;
+    text-align: center;
+    font-family: "Roboto";
+     border: double;
+}
+
+
+
+.links ul{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 0.8em;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+
+.links img{
+    height: 20px;
+    width: 20%;
+}
+
+@media all and (max-width: 1000px) {
+    .navigation{
+        font-size: 15px;
+    }
+    
+     .menu{
+        font-size: 13px;
+    }
+}
+
+
+
+
+@media all and (max-width: 800px) {
+    
+    .identity{
+        display: none;
+    }
+    
+    .links, .news, .compus,.wrapper, .descript{
+        padding: 2px;
+        margin: 1px;
+    }
+    
+    
+    h1,h2{
+        font-size: 1.5em !important;
+        top:-40%;
+        padding-left: 0;
+    }
+        
+    .glyphicon{
+        display: block !important;
+    }
+    
+    .menu li{
+        display: none;
+    }
+    
+    .menu input{
+        width: 20%;
+        right: 0;
+        
+    }
+    
+    .background{
+        font-size: 1em !important;
+    }
+    
+    .background input{
+        width: 100px !important;
+    }
+    
+    
+    .aside1{
+        flex-direction: column;
+    }
+    
+    .navigation li{
+        display: none;
+    }
+    
+    .header{
+        font-size: 10px;
+        left: 0;
+    }
+    
+    
+    .language b{
+        display: none;
+    }
+    
+    p{
+        font-size: 11px;
+    }
+    
+    .main li{
+        font-size: 12px;
+    }
+    
+    .main h3{
+        font-size: 15px;
+    }
+    
+    .main h4{
+        font-size: 12px;
+    }
+    
+    .main h5{
+        font-size: 13px;
+    }
